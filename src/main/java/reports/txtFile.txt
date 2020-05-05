@@ -1,0 +1,1 @@
+[Book{id=7,  bookTitle='Betty cea urata',  bookAuthor='H.C',  bookPrice=12.0,  bookQuantity=0.0,  genre='drama'}]

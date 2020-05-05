@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="anchorPane" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="32.0" layoutY="68.0" prefHeight="21.0" prefWidth="96.0" text="Book title" />
+      <Label layoutX="32.0" layoutY="107.0" text="Book author" />
+      <Label layoutX="32.0" layoutY="157.0" text="Book price" />
+      <Label layoutX="32.0" layoutY="198.0" prefHeight="21.0" prefWidth="82.0" text="Book stock" />
+      <Label layoutX="32.0" layoutY="250.0" text="Book genre" />
+      <TextField fx:id="bookTitle" layoutX="128.0" layoutY="63.0" prefHeight="31.0" prefWidth="211.0" />
+      <TextField fx:id="bookAuthor" layoutX="128.0" layoutY="102.0" prefHeight="31.0" prefWidth="211.0" />
+      <TextField fx:id="bookPrice" layoutX="128.0" layoutY="152.0" prefHeight="31.0" prefWidth="211.0" />
+      <TextField fx:id="bookStock" layoutX="128.0" layoutY="193.0" prefHeight="31.0" prefWidth="211.0" />
+      <TextField fx:id="bookGenre" layoutX="128.0" layoutY="245.0" prefHeight="31.0" prefWidth="211.0" />
+      <Button fx:id="addBookButton" layoutX="179.0" layoutY="320.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="112.0" text="Add book" />
+      <Label fx:id="messageLabel" layoutX="216.0" layoutY="372.0" />
+   </children>
+</AnchorPane>
